@@ -9,7 +9,7 @@ const connectToDb = () => {
         useUnifiedTopology: true,
       }
     )
-    .then(() => console.log("MongoDB Atlar CONECTADO!"))
+    .then(() => console.log("MongoDB Atlas CONECTADO!"))
     .catch((err) => console.log(err));
 };
 
